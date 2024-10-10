@@ -13,6 +13,12 @@
   /* overflow: hidden; */
 }
 
+.foodDescription {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
 .image {
   width: 100%;
   border-radius: 5px 5px 0 0;
@@ -26,6 +32,8 @@
   border: none;
   color: white;
   font-size: 14px;
+  width: 150px;
+  margin: auto;
 }
 
 .h4 {
@@ -61,12 +69,6 @@
     margin: 20px auto;
     width: 90%;
     padding-bottom: 0;
-  }
-
-  .foodDescription {
-    display: flex;
-    flex-direction: column;
-    margin: 0 10px;
   }
 
   .btn {
