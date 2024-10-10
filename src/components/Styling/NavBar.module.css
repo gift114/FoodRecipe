@@ -1,0 +1,38 @@
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  height: auto;
+  padding: 15px 0;
+  background: #e7e4e4;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav h1 {
+  margin-left: 150px;
+  color: rgb(26, 126, 51);
+}
+
+@media (max-width: 768px) {
+  .nav {
+    font-size: 1.2rem;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav h1 {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav {
+    font-size: 1.2rem;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav h1 {
+    margin-left: 60px;
+  }
+}

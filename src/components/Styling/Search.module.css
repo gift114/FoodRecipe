@@ -1,0 +1,28 @@
+.inputField {
+  display: flex;
+  justify-content: center;
+  width: 35%;
+  margin: 30px auto;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  outline: none;
+}
+
+@media (max-width: 760px) {
+  .inputField {
+    width: 70%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .inputField {
+    width: 85%;
+    margin: 30px auto;
+    padding: 10px;
+    font-size: 14px;
+  }
+}

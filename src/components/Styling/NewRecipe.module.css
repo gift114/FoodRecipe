@@ -1,0 +1,153 @@
+.view {
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 30px;
+  width: 100%;
+}
+
+.title {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.image {
+  border-radius: 8px;
+}
+
+.heading {
+  margin-top: 30px;
+}
+
+.detail {
+  margin-top: 20px;
+}
+
+.details {
+  margin: 20px 100px 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.ingredients {
+  display: flex;
+  margin: 20px 10px;
+  width: 95%;
+  padding: 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+  font-size: 18px;
+}
+
+.ingredient {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredientImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.instructions {
+  padding: 0 50px;
+}
+
+.instruction {
+  margin: 10px 0 0 0;
+  font-size: 20px;
+  padding: 5px 20px;
+  color: #5c5a5a;
+}
+
+@media (max-width: 768px) {
+  .view {
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .image {
+    border-radius: 8px;
+    width: 100%;
+  }
+
+  .detail {
+    margin-top: 10px;
+  }
+
+  .details {
+    margin: 10px 30px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .ingredients {
+    margin: 20px 10px;
+    width: 90%;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .ingredientImage {
+    width: 70px;
+    height: 70px;
+  }
+
+  .instructions {
+    padding: 0 20px;
+  }
+
+  .instruction {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .view {
+    width: 90%;
+    margin: 20px auto;
+    padding: 30px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .detail {
+    margin-top: 10px;
+  }
+
+  .details {
+    margin: 10px 50px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .ingredients {
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .ingredientImage {
+    width: 70px;
+    height: 70px;
+    margin-right: 30px;
+  }
+
+  .instructions {
+    padding: 0 20px;
+  }
+
+  .instruction {
+    font-size: 18px;
+  }
+}
