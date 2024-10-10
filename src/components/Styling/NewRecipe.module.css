@@ -126,7 +126,7 @@
   }
 
   .details {
-    margin: 10px 50px 0 0;
+    margin: 10px 20px;
     font-size: 14px;
     font-weight: bold;
   }
@@ -149,7 +149,7 @@
   }
 
   .instruction {
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px;
   }
 }
